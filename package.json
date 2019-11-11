@@ -8,7 +8,8 @@
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "CHROMATIC_APP_CODE=pg28d0kyphb chromatic"
   },
   "dependencies": {
     "@storybook/addon-knobs": "^5.2.6",

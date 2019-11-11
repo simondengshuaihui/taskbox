@@ -1,4 +1,5 @@
 import { configure } from '@storybook/vue';
+import 'storybook-chromatic';
 
 import '../src/index.css';
 const req = require.context('../src', true, /\.stories.js$/);
